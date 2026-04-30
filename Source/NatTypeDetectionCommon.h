@@ -13,8 +13,7 @@
 /// \details
 /// \ingroup PLUGINS_GROUP
 
-#ifndef __NAT_TYPE_DETECTION_COMMON_H
-#define __NAT_TYPE_DETECTION_COMMON_H
+#pragma once
 
 #include "NativeFeatureIncludes.h"
 
@@ -76,4 +75,3 @@ namespace RakNet
 
 #endif // #if _RAKNET_SUPPORT_NatTypeDetectionServer==1 || _RAKNET_SUPPORT_NatTypeDetectionClient==1
 
-#endif

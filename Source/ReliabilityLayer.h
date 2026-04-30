@@ -13,8 +13,7 @@
 ///
 
 
-#ifndef __RELIABILITY_LAYER_H
-#define __RELIABILITY_LAYER_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "MTUSize.h"
@@ -593,4 +592,3 @@ protected:
 
 } // namespace RakNet
 
-#endif

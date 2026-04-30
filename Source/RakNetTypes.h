@@ -13,8 +13,7 @@
 ///
 
 
-#ifndef __NETWORK_TYPES_H
-#define __NETWORK_TYPES_H
+#pragma once
 
 
 
@@ -504,4 +503,3 @@ struct RAK_DLL_EXPORT uint24_t
 
 } // namespace RakNet
 
-#endif

@@ -8,6 +8,9 @@
  *
  */
 
+#pragma once
+
+
 /// \file
 /// \brief \b [Internal] Defines the default maximum transfer unit.
 ///

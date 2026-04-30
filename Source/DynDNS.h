@@ -17,8 +17,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_DynDNS==1 && _RAKNET_SUPPORT_TCPInterface==1
 
-#ifndef __DYN_DNS_H
-#define __DYN_DNS_H
+#pragma once
 
 #include "RakString.h"
 
@@ -107,4 +106,3 @@ protected:
 
 #endif // __DYN_DNS_H
 
-#endif // _RAKNET_SUPPORT_DynDNS

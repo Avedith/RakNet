@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_PacketLogger==1
 
-#ifndef __THREADSAFE_PACKET_LOGGER_H
-#define __THREADSAFE_PACKET_LOGGER_H
+#pragma once
 
 #include "PacketLogger.h"
 #include "SingleProducerConsumer.h"
@@ -45,4 +44,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

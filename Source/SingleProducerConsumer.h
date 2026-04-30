@@ -14,8 +14,7 @@
 
 
 
-#ifndef __SINGLE_PRODUCER_CONSUMER_H
-#define __SINGLE_PRODUCER_CONSUMER_H
+#pragma once
 
 #include "RakAssert.h"
 
@@ -264,4 +263,3 @@ namespace DataStructures
 	}	
 }
 
-#endif

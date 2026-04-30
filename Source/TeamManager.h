@@ -22,8 +22,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_TeamManager==1
 
-#ifndef __TEAM_MANAGER_H
-#define __TEAM_MANAGER_H
+#pragma once
 
 #include "PluginInterface2.h"
 #include "RakMemoryOverride.h"
@@ -752,6 +751,4 @@ protected:
 } // namespace RakNet
 
 #endif // __TEAM_MANAGER_H
-
-#endif // _RAKNET_SUPPORT_*
 

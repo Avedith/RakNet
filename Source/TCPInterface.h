@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_TCPInterface==1
 
-#ifndef __SIMPLE_TCP_SERVER
-#define __SIMPLE_TCP_SERVER
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "DS_List.h"
@@ -258,6 +257,4 @@ struct RemoteClient
 } // namespace RakNet
 
 #endif
-
-#endif // _RAKNET_SUPPORT_*
 

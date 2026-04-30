@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_RPC4Plugin==1
 
-#ifndef __RPC_4_PLUGIN_H
-#define __RPC_4_PLUGIN_H
+#pragma once
 
 #include "PluginInterface2.h"
 #include "PacketPriority.h"
@@ -241,4 +240,3 @@ class NetworkIDManager;
 #pragma warning( pop )
 #endif
 
-#endif // _RAKNET_SUPPORT_*

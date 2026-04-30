@@ -13,8 +13,7 @@
 ///
 
 
-#ifndef __COMMAND_PARSER_INTERFACE
-#define __COMMAND_PARSER_INTERFACE
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "RakNetTypes.h"
@@ -142,6 +141,4 @@ protected:
 };
 
 } // namespace RakNet
-
-#endif
 

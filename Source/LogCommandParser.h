@@ -15,8 +15,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_LogCommandParser==1
 
-#ifndef __LOG_COMMAND_PARSER
-#define __LOG_COMMAND_PARSER
+#pragma once
 
 #include "CommandParserInterface.h"
 #include "Export.h"
@@ -124,4 +123,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

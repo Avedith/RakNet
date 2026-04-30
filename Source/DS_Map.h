@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __RAKNET_MAP_H
-#define __RAKNET_MAP_H
+#pragma once
 
 #include "DS_OrderedList.h"
 #include "Export.h"
@@ -325,4 +324,3 @@ namespace DataStructures
 	}
 }
 
-#endif

@@ -15,8 +15,7 @@
 
 
 
-#ifndef __RAKNET_HEAP_H
-#define __RAKNET_HEAP_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "DS_List.h"
@@ -302,4 +301,3 @@ namespace DataStructures
 #pragma warning( pop )
 #endif
 
-#endif

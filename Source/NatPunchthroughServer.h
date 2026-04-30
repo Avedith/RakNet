@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_NatPunchthroughServer==1
 
-#ifndef __NAT_PUNCHTHROUGH_SERVER_H
-#define __NAT_PUNCHTHROUGH_SERVER_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "Export.h"
@@ -153,4 +152,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

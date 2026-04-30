@@ -18,8 +18,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_TwoWayAuthentication==1
 
-#ifndef __TWO_WAY_AUTHENTICATION_H
-#define __TWO_WAY_AUTHENTICATION_H
+#pragma once
 
 // How often to change the nonce.
 #define NONCE_TIMEOUT_MS 10000
@@ -151,4 +150,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

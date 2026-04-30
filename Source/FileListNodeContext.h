@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __FILE_LIST_NODE_CONTEXT_H
-#define __FILE_LIST_NODE_CONTEXT_H
+#pragma once
 
 #include "BitStream.h"
 
@@ -54,4 +53,3 @@ inline RakNet::BitStream& operator>>(RakNet::BitStream& in, FileListNodeContext&
 	return in;
 }
 
-#endif

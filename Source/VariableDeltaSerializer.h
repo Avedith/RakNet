@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __VARIABLE_DELTA_SERIALIZER_H
-#define __VARIABLE_DELTA_SERIALIZER_H
+#pragma once
 
 #include "VariableListDeltaTracker.h"
 #include "DS_MemoryPool.h"
@@ -264,4 +263,3 @@ protected:
 
 }
 
-#endif

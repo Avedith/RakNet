@@ -16,8 +16,7 @@
 // TODO - RakNet 4 - Add network simulator
 // TODO - RakNet 4 - Enable disabling flow control per connections
 
-#ifndef __RAK_PEER_H
-#define __RAK_PEER_H
+#pragma once
 
 #include "ReliabilityLayer.h"
 #include "RakPeerInterface.h"
@@ -1031,4 +1030,3 @@ protected:
 
 } // namespace RakNet
 
-#endif

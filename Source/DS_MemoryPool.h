@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __MEMORY_POOL_H
-#define __MEMORY_POOL_H
+#pragma once
 
 #ifndef __APPLE__
 // Use stdlib and not malloc for compatibility
@@ -299,7 +298,6 @@ namespace DataStructures
 	}
 }
 
-#endif
 
 /*
 #include "DS_MemoryPool.h"

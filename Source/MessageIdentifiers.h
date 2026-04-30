@@ -13,8 +13,7 @@
 ///
 
 
-#ifndef __MESSAGE_IDENTIFIERS_H
-#define __MESSAGE_IDENTIFIERS_H 
+#pragma once 
 
 #if defined(RAKNET_USE_CUSTOM_PACKET_IDS)
 #include "CustomPacketIdentifiers.h"
@@ -434,4 +433,3 @@ enum DefaultMessageIDTypes
 
 #endif // RAKNET_USE_CUSTOM_PACKET_IDS
 
-#endif

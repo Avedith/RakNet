@@ -12,8 +12,7 @@
 /// \internal
 /// A threadsafe queue, that also uses a memory pool for allocation
 
-#ifndef __THREADSAFE_ALLOCATING_QUEUE
-#define __THREADSAFE_ALLOCATING_QUEUE
+#pragma once
 
 #include "DS_Queue.h"
 #include "SimpleMutex.h"
@@ -181,4 +180,3 @@ unsigned int ThreadsafeAllocatingQueue<structureType>::Size( void )
 // #undef RMO_NEW_UNDEF_ALLOCATING_QUEUE
 // #endif
 
-#endif

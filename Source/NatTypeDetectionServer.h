@@ -15,8 +15,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_NatTypeDetectionServer==1
 
-#ifndef __NAT_TYPE_DETECTION_SERVER_H
-#define __NAT_TYPE_DETECTION_SERVER_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "Export.h"
@@ -134,4 +133,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

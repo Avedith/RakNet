@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __SIGNALED_EVENT_H
-#define __SIGNALED_EVENT_H
+#pragma once
 
 
 
@@ -66,4 +65,3 @@ protected:
 
 } // namespace RakNet
 
-#endif

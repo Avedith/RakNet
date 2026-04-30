@@ -1,5 +1,4 @@
-#ifndef RAKNET_SOCKETINCLUDES_H
-#define RAKNET_SOCKETINCLUDES_H
+#pragma once
 
 // All this crap just to include type SOCKET
 
@@ -95,4 +94,3 @@
 
 #endif
 
-#endif  // RAKNET_SOCKETINCLUDES_H

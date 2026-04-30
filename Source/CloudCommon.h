@@ -11,8 +11,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_CloudClient==1 || _RAKNET_SUPPORT_CloudServer==1
 
-#ifndef __CLOUD_COMMON_H
-#define __CLOUD_COMMON_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "RakString.h"
@@ -147,4 +146,3 @@ struct RAK_DLL_EXPORT CloudQueryResult
 
 #endif // __CLOUD_COMMON_H
 
-#endif // #if _RAKNET_SUPPORT_CloudClient==1 || _RAKNET_SUPPORT_CloudServer==1

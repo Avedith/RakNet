@@ -14,8 +14,7 @@
 
 
 
-#ifndef __RAK_MEMORY_H
-#define __RAK_MEMORY_H
+#pragma once
 
 #include "Export.h"
 #include "RakNetDefines.h"
@@ -241,4 +240,3 @@ void FreeRakNetFixedHeap(void);
 // 	#endif
 // #endif
 
-#endif

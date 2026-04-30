@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __BYTE_POOL_H
-#define __BYTE_POOL_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "DS_MemoryPool.h"
@@ -51,4 +50,3 @@ namespace DataStructures
 	};
 }
 
-#endif

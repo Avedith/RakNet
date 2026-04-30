@@ -15,8 +15,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_UDPProxyClient==1
 
-#ifndef __UDP_PROXY_CLIENT_H
-#define __UDP_PROXY_CLIENT_H
+#pragma once
 
 #include "Export.h"
 #include "RakNetTypes.h"
@@ -178,4 +177,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

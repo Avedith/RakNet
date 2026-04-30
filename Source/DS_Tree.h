@@ -15,8 +15,7 @@
 
 
 
-#ifndef __DS_TREE_H
-#define __DS_TREE_H
+#pragma once
 
 #include "Export.h"
 #include "DS_List.h"
@@ -103,4 +102,3 @@ namespace DataStructures
 	}
 }
 
-#endif

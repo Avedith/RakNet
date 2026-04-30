@@ -14,8 +14,7 @@
 
 
 
-#ifndef __RAND_SYNC_H
-#define __RAND_SYNC_H 
+#pragma once 
 
 #include "Export.h"
 #include "Rand.h"
@@ -55,4 +54,3 @@ protected:
 } // namespace RakNet
 
 
-#endif

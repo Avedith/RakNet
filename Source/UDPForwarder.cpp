@@ -229,8 +229,8 @@ void UDPForwarder::RecvFrom(RakNet::TimeMS curTime, ForwardEntry *forwardEntry)
 		{
 			LPVOID messageBuffer;
 			FormatMessage( FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
-				NULL, dwIOError, MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),  // Default language
-				( LPTSTR ) & messageBuffer, 0, NULL );
+				nullptr, dwIOError, MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),  // Default language
+				( LPTSTR ) & messageBuffer, 0, nullptr );
 			// something has gone wrong here...
 			RAKNET_DEBUG_PRINTF( "recvfrom failed:Error code - %d\n%s", dwIOError, messageBuffer );
 
@@ -492,7 +492,7 @@ void UDPForwarder::UpdateUDPForwarder(void)
 				else
 					getaddrinfo(sfis->forceHostAddress.C_String(), "0", &hints, &servinfo);
 
-				for (aip = servinfo; aip != NULL; aip = aip->ai_next)
+				for (aip = servinfo; aip != nullptr; aip = aip->ai_next)
 				{
 					// Open socket. The address type depends on what
 					// getaddrinfo() gave us.

@@ -18,8 +18,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_TeamBalancer==1
 
-#ifndef __TEAM_BALANCER_H
-#define __TEAM_BALANCER_H
+#pragma once
 
 #include "PluginInterface2.h"
 #include "RakMemoryOverride.h"
@@ -203,4 +202,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

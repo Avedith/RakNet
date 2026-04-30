@@ -8,6 +8,9 @@
  *
  */
 
+#pragma once
+
+
 #if   defined(_WIN32)
 #include <conio.h> /* getche() */
 

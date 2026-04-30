@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __TABLE_H
-#define __TABLE_H
+#pragma once
 
 #ifdef _MSC_VER
 #pragma warning( push )
@@ -348,4 +347,3 @@ namespace DataStructures
 #pragma warning( pop )
 #endif
 
-#endif

@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __FORMAT_STRING_H
-#define __FORMAT_STRING_H
+#pragma once
 
 #include "Export.h"
 
@@ -25,6 +24,4 @@ extern "C" {
 char * FormatStringTS(char *output, const char *format, ...);
 }
 
-
-#endif
 

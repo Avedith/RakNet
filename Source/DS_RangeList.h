@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __RANGE_LIST_H
-#define __RANGE_LIST_H
+#pragma once
 
 #include "DS_OrderedList.h"
 #include "BitStream.h"
@@ -240,4 +239,3 @@ namespace DataStructures
 
 }
 
-#endif

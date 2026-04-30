@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __RAKNET_ORDERED_CHANNEL_HEAP_H
-#define __RAKNET_ORDERED_CHANNEL_HEAP_H
+#pragma once
 
 #include "DS_Heap.h"
 #include "DS_Map.h"
@@ -248,4 +247,3 @@ namespace DataStructures
 	}
 }
 
-#endif

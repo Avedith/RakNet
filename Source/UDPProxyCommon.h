@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __UDP_PROXY_COMMON_H
-#define __UDP_PROXY_COMMON_H
+#pragma once
 
 // System flow:
 /*
@@ -64,4 +63,3 @@ enum UDPProxyMessages
 
 #define UDP_FORWARDER_MAXIMUM_TIMEOUT (60000 * 10)
 
-#endif
