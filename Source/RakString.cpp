@@ -1474,7 +1474,11 @@ void RakString::AppendBytes(const char *bytes, unsigned int count)
 	if (IsEmpty())
 	{
 		Allocate(count);
-		memcpy(sharedString->c_str, bytes, count+1);
+		// Only copy `count` bytes; the null terminator is set explicitly
+		// on the next line.  Copying count+1 would read one byte past the
+		// caller's buffer and could overflow the internal smallString buffer
+		// when count == smallStringSize.
+		memcpy(sharedString->c_str, bytes, count);
 		sharedString->c_str[count]=0;
 	}
 	else

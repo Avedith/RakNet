@@ -275,7 +275,10 @@ namespace DataStructures
 		}
 
 		// Move the elements in the list to make room
-		for ( unsigned int counter = list_size; counter != position; counter-- )
+		// Use > instead of != so that an out-of-range position (possible in
+		// release builds where the assert above is compiled out) does not
+		// cause an infinite loop due to unsigned integer wraparound.
+		for ( unsigned int counter = list_size; counter > position; counter-- )
 			listArray[ counter ] = listArray[ counter - 1 ];
 
 		// Don't call constructors, assignment operators, etc.

@@ -102,7 +102,10 @@ SocketDescriptor::SocketDescriptor(unsigned short _port, const char *_hostAddres
 	remotePortRakNetWasStartedOn_PS3_PSP2=0;
 	port=_port;
 	if (_hostAddress)
-		strcpy(hostAddress, _hostAddress);
+	{
+		strncpy(hostAddress, _hostAddress, sizeof(hostAddress) - 1);
+		hostAddress[sizeof(hostAddress) - 1] = '\0';
+	}
 	else
 		hostAddress[0]=0;
 	extraSocketOptions=0;
