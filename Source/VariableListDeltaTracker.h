@@ -13,8 +13,7 @@
 #include "RakMemoryOverride.h"
 #include "BitStream.h"
 
-#ifndef __VARIABLE_LIST_DELTA_TRACKER
-#define __VARIABLE_LIST_DELTA_TRACKER
+#pragma once
 
 namespace RakNet
 {
@@ -143,4 +142,3 @@ protected:
 
 }
 
-#endif

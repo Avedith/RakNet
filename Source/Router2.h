@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_Router2==1 && _RAKNET_SUPPORT_UDPForwarder==1
 
-#ifndef __ROUTER_2_PLUGIN_H
-#define __ROUTER_2_PLUGIN_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "PluginInterface2.h"
@@ -200,4 +199,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

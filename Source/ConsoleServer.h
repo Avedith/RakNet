@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_ConsoleServer==1
 
-#ifndef __CONSOLE_SERVER_H
-#define __CONSOLE_SERVER_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "DS_List.h"
@@ -81,4 +80,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

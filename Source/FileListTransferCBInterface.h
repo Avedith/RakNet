@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __FILE_LIST_TRANSFER_CALLBACK_INTERFACE_H
-#define __FILE_LIST_TRANSFER_CALLBACK_INTERFACE_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "FileListNodeContext.h"
@@ -156,7 +155,5 @@ public:
 
 #ifdef _MSC_VER
 #pragma warning( pop )
-#endif
-
 #endif
 

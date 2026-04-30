@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __AUTOPATCHER_REPOSITORY_INTERFACE_H
-#define __AUTOPATCHER_REPOSITORY_INTERFACE_H
+#pragma once
 
 #include "IncrementalReadInterface.h"
 #include "SimpleMutex.h"
@@ -72,6 +71,4 @@ public:
 };
 
 } // namespace RakNet
-
-#endif
 

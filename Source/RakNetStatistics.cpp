@@ -26,7 +26,7 @@ void RAK_DLL_EXPORT RakNet::StatisticsToString( RakNetStatistics *s, char *buffe
 {
 	if ( s == 0 )
 	{
-		sprintf( buffer, "stats is a NULL pointer in statsToString\n" );
+		sprintf( buffer, "stats is a nullptr pointer in statsToString\n" );
 		return ;
 	}
 

@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_NatTypeDetectionClient==1
 
-#ifndef __NAT_TYPE_DETECTION_CLIENT_H
-#define __NAT_TYPE_DETECTION_CLIENT_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "Export.h"
@@ -94,4 +93,3 @@ struct Packet;
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

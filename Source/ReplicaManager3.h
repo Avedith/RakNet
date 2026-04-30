@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_ReplicaManager3==1
 
-#ifndef __REPLICA_MANAGER_3
-#define __REPLICA_MANAGER_3
+#pragma once
 
 #include "RakNetTypes.h"
 #include "RakNetTime.h"
@@ -1134,4 +1133,3 @@ public:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

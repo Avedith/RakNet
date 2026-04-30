@@ -14,8 +14,7 @@
 
 
 
-#ifndef __REPLICA_ENUMS_H
-#define __REPLICA_ENUMS_H
+#pragma once
 
 /// Replica interface flags, used to enable and disable function calls on the Replica object
 /// Passed to ReplicaManager::EnableReplicaInterfaces and ReplicaManager::DisableReplicaInterfaces
@@ -48,4 +47,3 @@ enum ReplicaReturnResult
 	REPLICA_PROCESS_IMPLICIT
 };
 
-#endif

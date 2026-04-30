@@ -325,8 +325,8 @@ RNS2BindResult RNS2_Berkley::BindShared( RNS2_BerkleyBindParameters *bindParamet
 
 	/*
 #if defined(__APPLE__)
-	const CFSocketContext   context = { 0, this, NULL, NULL, NULL };
-	_cfSocket = CFSocketCreateWithNative(NULL, rns2Socket, kCFSocketReadCallBack, SocketReadCallback, &context);
+	const CFSocketContext   context = { 0, this, nullptr, nullptr, nullptr };
+	_cfSocket = CFSocketCreateWithNative(nullptr, rns2Socket, kCFSocketReadCallBack, SocketReadCallback, &context);
 #endif
 	*/
 
@@ -351,7 +351,7 @@ unsigned RNS2_Berkley::RecvFromLoopInt(void)
 	{
 		RNS2RecvStruct *recvFromStruct;
 		recvFromStruct=binding.eventHandler->AllocRNS2RecvStruct(_FILE_AND_LINE_);
-		if (recvFromStruct != NULL)
+		if (recvFromStruct != nullptr)
 		{
 			recvFromStruct->socket=this;
 			RecvFromBlocking(recvFromStruct);

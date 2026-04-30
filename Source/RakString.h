@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __RAK_STRING_H
-#define __RAK_STRING_H 
+#pragma once 
 
 #include "Export.h"
 #include "DS_List.h"
@@ -155,9 +154,9 @@ public:
 	/// Erase characters out of the string at index for count
 	void Erase(unsigned int index, unsigned int count);
 
-	/// Set the first instance of c with a NULL terminator
+	/// Set the first instance of c with a nullptr terminator
 	void TerminateAtFirstCharacter(char c);
-	/// Set the last instance of c with a NULL terminator
+	/// Set the last instance of c with a nullptr terminator
 	void TerminateAtLastCharacter(char c);
 
 	void StartAfterFirstCharacter(char c);
@@ -351,4 +350,3 @@ protected:
 const RakNet::RakString RAK_DLL_EXPORT operator+(const RakNet::RakString &lhs, const RakNet::RakString &rhs);
 
 
-#endif

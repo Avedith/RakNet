@@ -14,8 +14,7 @@
 
 
 
-#ifndef __SIMPLE_MUTEX_H
-#define __SIMPLE_MUTEX_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 
@@ -73,6 +72,4 @@ private:
 };
 
 } // namespace RakNet
-
-#endif
 

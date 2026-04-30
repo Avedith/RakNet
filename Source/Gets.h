@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __GETS__H_
-#define __GETS__H_
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,4 +20,3 @@ char * Gets ( char * str, int num );
 }
 #endif
 
-#endif

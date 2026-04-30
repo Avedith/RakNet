@@ -23,8 +23,7 @@
 #include "DS_Queue.h"
 #include "RakString.h"
 
-#ifndef __RACKSPACE_H
-#define __RACKSPACE_H
+#pragma once
 
 namespace RakNet
 {
@@ -410,4 +409,3 @@ namespace RakNet
 
 #endif // __RACKSPACE_API_H
 
-#endif // _RAKNET_SUPPORT_Rackspace

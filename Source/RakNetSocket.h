@@ -9,8 +9,7 @@
  */
 
 /*
-#ifndef __RAKNET_SOCKET_H
-#define __RAKNET_SOCKET_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "RakNetDefines.h"
@@ -190,5 +189,4 @@ protected:
 
 } // namespace RakNet
 
-#endif
 */

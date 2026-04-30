@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_ConnectionGraph2==1
 
-#ifndef __CONNECTION_GRAPH_2_H
-#define __CONNECTION_GRAPH_2_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "RakNetTypes.h"
@@ -123,4 +122,3 @@ protected:
 
 #endif // #ifndef __CONNECTION_GRAPH_2_H
 
-#endif // _RAKNET_SUPPORT_*

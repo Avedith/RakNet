@@ -15,8 +15,7 @@
 ///
 
 
-#ifndef __WEIGHTED_GRAPH_H
-#define __WEIGHTED_GRAPH_H
+#pragma once
 
 #include "DS_OrderedList.h"
 #include "DS_Map.h"
@@ -541,4 +540,3 @@ namespace DataStructures
 #pragma warning( pop )
 #endif
 
-#endif

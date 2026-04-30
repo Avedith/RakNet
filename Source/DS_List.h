@@ -15,8 +15,7 @@
 ///
 
 
-#ifndef __LIST_H
-#define __LIST_H 
+#pragma once 
 
 #include "RakAssert.h"
 #include <string.h> // memmove
@@ -522,4 +521,3 @@ namespace DataStructures
 	
 } // End namespace
 
-#endif

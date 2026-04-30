@@ -15,8 +15,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_FileOperations==1
 
-#ifndef __FILE_LIST
-#define __FILE_LIST
+#pragma once
 
 #include "Export.h"
 #include "DS_List.h"
@@ -263,4 +262,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_FileOperations

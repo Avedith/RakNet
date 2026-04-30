@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __LINKED_LIST_H
-#define __LINKED_LIST_H 
+#pragma once 
 
 #include "Export.h"
 #include "RakMemoryOverride.h"
@@ -1255,4 +1254,3 @@ namespace DataStructures
 #pragma warning( pop )
 #endif
 
-#endif

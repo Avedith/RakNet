@@ -13,8 +13,7 @@
 ///
 
 
-#ifndef __PLUGIN_INTERFACE_2_H
-#define __PLUGIN_INTERFACE_2_H
+#pragma once
 
 #include "NativeFeatureIncludes.h"
 #include "RakNetTypes.h"
@@ -206,6 +205,4 @@ protected:
 };
 
 } // namespace RakNet
-
-#endif
 

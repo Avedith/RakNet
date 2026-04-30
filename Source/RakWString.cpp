@@ -109,7 +109,7 @@ RakWString& RakWString::operator = ( const char * const str )
 	if (str[0]==0)
 		return *this;
 
-	c_strCharLength = mbstowcs(NULL, str, 0);
+	c_strCharLength = mbstowcs(nullptr, str, 0);
 	c_str = (wchar_t *) rakMalloc_Ex( (c_strCharLength + 1) * MAX_BYTES_PER_UNICODE_CHAR, _FILE_AND_LINE_);
 	if (!c_str)
 	{

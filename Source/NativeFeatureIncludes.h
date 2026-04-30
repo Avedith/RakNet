@@ -12,8 +12,7 @@
 // The user should not edit this file
 #include "NativeFeatureIncludesOverrides.h"
 
-#ifndef __NATIVE_FEATURE_INCLDUES_H
-#define __NATIVE_FEATURE_INCLDUES_H
+#pragma once
 
 // Uncomment below defines, and paste to NativeFeatureIncludesOverrides.h, to exclude plugins that you do not want to build into the static library, or DLL
 // These are not all the plugins, only those that are in the core library
@@ -203,4 +202,3 @@
 
 
 
-#endif // __NATIVE_FEATURE_INCLDUES_H

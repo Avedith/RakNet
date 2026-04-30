@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_PacketizedTCP==1 && _RAKNET_SUPPORT_TCPInterface==1
 
-#ifndef __PACKETIZED_TCP
-#define __PACKETIZED_TCP
+#pragma once
 
 #include "TCPInterface.h"
 #include "DS_ByteQueue.h"
@@ -83,4 +82,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

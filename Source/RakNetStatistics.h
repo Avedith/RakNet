@@ -14,8 +14,7 @@
 
 
 
-#ifndef __RAK_NET_STATISTICS_H
-#define __RAK_NET_STATISTICS_H
+#pragma once
 
 #include "PacketPriority.h"
 #include "Export.h"
@@ -130,4 +129,3 @@ void RAK_DLL_EXPORT StatisticsToString( RakNetStatistics *s, char *buffer, int v
 
 } // namespace RakNet
 
-#endif

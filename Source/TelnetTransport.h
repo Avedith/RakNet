@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_TelnetTransport==1 && _RAKNET_SUPPORT_TCPInterface==1
 
-#ifndef __TELNET_TRANSPORT
-#define __TELNET_TRANSPORT
+#pragma once
 
 #include "TransportInterface.h"
 #include "DS_List.h"
@@ -77,4 +76,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef __B_PLUS_TREE_CPP
-#define __B_PLUS_TREE_CPP
+#pragma once
 
 #include "DS_MemoryPool.h"
 #include "DS_Queue.h"
@@ -1073,7 +1072,6 @@ namespace DataStructures
 #pragma warning( pop )
 #endif
 
-#endif
 
 // Code to test this hellish data structure.
 /*

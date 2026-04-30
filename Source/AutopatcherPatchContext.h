@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __AUTOPATCHER_PATCH_CONTEXT_H
-#define __AUTOPATCHER_PATCH_CONTEXT_H
+#pragma once
 
 enum PatchContext
 {
@@ -25,4 +24,3 @@ enum PatchContext
 	PC_NOTICE_FILE_DOWNLOADED_PATCH,
 };
 
-#endif

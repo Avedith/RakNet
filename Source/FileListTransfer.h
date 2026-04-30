@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_FileListTransfer==1 && _RAKNET_SUPPORT_FileOperations==1
 
-#ifndef __FILE_LIST_TRANFER_H
-#define __FILE_LIST_TRANFER_H
+#pragma once
 
 #include "RakNetTypes.h"
 #include "Export.h"
@@ -182,4 +181,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

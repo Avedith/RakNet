@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __QUEUE_LINKED_LIST_H
-#define __QUEUE_LINKED_LIST_H
+#pragma once
 
 #include "DS_LinkedList.h" 
 #include "Export.h"
@@ -107,4 +106,3 @@ namespace DataStructures
 	}
 } // End namespace
 
-#endif

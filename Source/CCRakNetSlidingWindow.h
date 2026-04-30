@@ -39,8 +39,7 @@ else use congestion avoidance
 
 #if USE_SLIDING_WINDOW_CONGESTION_CONTROL==1
 
-#ifndef __CONGESTION_CONTROL_SLIDING_WINDOW_H
-#define __CONGESTION_CONTROL_SLIDING_WINDOW_H
+#pragma once
 
 #include "NativeTypes.h"
 #include "RakNetTime.h"
@@ -217,4 +216,3 @@ class CCRakNetSlidingWindow
 
 #endif
 
-#endif

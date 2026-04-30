@@ -8,8 +8,7 @@
  *
  */
 
-#ifndef __SENDTO_THREAD
-#define __SENDTO_THREAD
+#pragma once
 
 #include "RakNetDefines.h"
 
@@ -54,4 +53,3 @@ protected:
 
 #endif
 
-#endif

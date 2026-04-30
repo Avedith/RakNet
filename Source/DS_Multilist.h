@@ -13,8 +13,7 @@
 /// \brief ADT that can represent an unordered list, ordered list, stack, or queue with a common interface
 ///
 
-#ifndef __MULTILIST_H
-#define __MULTILIST_H 
+#pragma once 
 
 #include "RakAssert.h"
 #include <string.h> // memmove
@@ -1647,4 +1646,3 @@ void MultilistUnitTest(void)
 #endif
 */
 
-#endif

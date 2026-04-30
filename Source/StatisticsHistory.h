@@ -15,8 +15,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_StatisticsHistory==1
 
-#ifndef __STATISTICS_HISTORY_H
-#define __STATISTICS_HISTORY_H
+#pragma once
 
 #include "PluginInterface2.h"
 #include "RakMemoryOverride.h"
@@ -232,4 +231,3 @@ protected:
 
 #endif // __STATISTICS_HISTORY_H
 
-#endif // _RAKNET_SUPPORT_*

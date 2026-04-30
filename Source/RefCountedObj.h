@@ -14,8 +14,7 @@
 
 
 
-#ifndef __REF_COUNTED_OBJ_H
-#define __REF_COUNTED_OBJ_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 
@@ -30,4 +29,3 @@ class RefCountedObj
 		int refCount;
 };
 
-#endif

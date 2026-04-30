@@ -16,8 +16,7 @@
 #include "NativeFeatureIncludes.h"
 #if _RAKNET_SUPPORT_ReadyEvent==1
 
-#ifndef __READY_EVENT_H
-#define __READY_EVENT_H
+#pragma once
 
 #include "PluginInterface2.h"
 #include "DS_OrderedList.h"
@@ -239,4 +238,3 @@ protected:
 
 #endif
 
-#endif // _RAKNET_SUPPORT_*

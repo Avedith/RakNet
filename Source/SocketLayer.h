@@ -15,8 +15,7 @@
 
 
 
-#ifndef __SOCKET_LAYER_H
-#define __SOCKET_LAYER_H
+#pragma once
 
 #include "RakMemoryOverride.h"
 #include "RakNetTypes.h"
@@ -194,4 +193,3 @@ private:
 
 } // namespace RakNet
 
-#endif

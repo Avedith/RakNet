@@ -12,8 +12,7 @@
 ///
 
 
-#ifndef SECURE_HANDSHAKE_H
-#define SECURE_HANDSHAKE_H
+#pragma once
 
 #include "NativeFeatureIncludes.h"
 
@@ -31,4 +30,3 @@
 
 #endif // LIBCAT_SECURITY
 
-#endif // SECURE_HANDSHAKE_H

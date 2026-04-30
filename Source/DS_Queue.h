@@ -14,8 +14,7 @@
 ///
 
 
-#ifndef __QUEUE_H
-#define __QUEUE_H
+#pragma once
 
 // Template classes have to have all the code in the header file
 #include "RakAssert.h"
@@ -456,6 +455,4 @@ namespace DataStructures
 			--tail;
 	}
 } // End namespace
-
-#endif
 
